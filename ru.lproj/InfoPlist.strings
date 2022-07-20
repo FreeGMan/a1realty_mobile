@@ -1,0 +1,13 @@
+﻿NSFaceIDUsageDescription = "Приложение использует FaceID для защиты секретных данных.";
+NSAppleMusicUsageDescription = "Для проигрывания музыки в приложении требуется разрешение.";
+NSBluetoothAlwaysUsageDescription = "Для печати на Bluetooth принтерах требуется разрешение.";
+NSMicrophoneUsageDescription = "Для записи видео и аудио необходимо разрешить использование микрофона.";
+CFBundleDisplayName = "[А1] Недвижимость";
+NSBluetoothPeripheralUsageDescription = "Для печати на Bluetooth принтерах требуется разрешение.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Для работы с сервисами геопозиционирования требуется разрешение.";
+NSPhotoLibraryUsageDescription = "Для работы с альбомами фотографий и видео на устройстве требуется разрешение.";
+NSLocationWhenInUseUsageDescription = "Для работы с сервисами геопозиционирования требуется разрешение.";
+NSLocationAlwaysUsageDescription = "Для работы с сервисами геопозиционирования требуется разрешение.";
+NSContactsUsageDescription = "Для работы с контактами устройства требуется разрешение.";
+NSCameraUsageDescription = "Для фотографирования, записи видео и сканирования штрихкодов необходимо разрешить использование камеры.";
+NSCalendarsUsageDescription = "Для работы с календарями устройства требуется разрешение.";
