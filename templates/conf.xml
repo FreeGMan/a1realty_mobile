@@ -1,132 +1,165 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="А1НедвижимостьМобильная" id="1e485a35-7920-4836-9dd0-92d468fd29f5" lastUpdateUUID="109d3b99-0d68-4e58-aa10-eb1b881c6d3b" formatVersion="4" defaultLanguage="Language.Русский" version="1.1.9">
+<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:bsch="http://v8.1c.ru/8.2/data/bsl" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:chm="http://v8.1c.ru/8.2/data/chart" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dl="http://v8.1c.ru/8.2/managed-application/dynamic-list" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:mf="http://v8.1c.ru/8.3/mobile-application/form" xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pl="http://v8.1c.ru/8.3/data/planner" xmlns:role="http://v8.1c.ru/8.2/roles" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="А1НедвижимостьМобильная" id="1e485a35-7920-4836-9dd0-92d468fd29f5" lastUpdateUUID="cc5bd4dd-3a49-428b-98b1-399284606183" formatVersion="4" defaultLanguage="Language.Русский" version="1.1.20">
 	<synonym>
-		<item xmlns="http://v8.1c.ru/8.1/data/core">
-			<lang>ru</lang>
-			<content>[А1] Недвижимость</content>
-		</item>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>[А1] Недвижимость</v8:content>
+		</v8:item>
 	</synonym>
 	<language name="Русский" id="ee3167cd-dfe0-47b7-ae4e-c084dc3b09db" languageCode="ru">
 		<synonym>
-			<item xmlns="http://v8.1c.ru/8.1/data/core">
-				<lang>ru</lang>
-				<content>Русский</content>
-			</item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Русский</v8:content>
+			</v8:item>
 		</synonym>
 	</language>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Location</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
+		<app:permission>Location</app:permission>
+		<app:use>true</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Contacts</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
+		<app:permission>Contacts</app:permission>
+		<app:use>true</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Calendars</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>Calendars</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">PushNotification</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
+		<app:permission>PushNotification</app:permission>
+		<app:use>true</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">LocalNotification</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
+		<app:permission>LocalNotification</app:permission>
+		<app:use>true</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Print</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>Print</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">InAppPurchases</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>InAppPurchases</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Ads</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>Ads</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">BackgroundLocation</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
+		<app:permission>BackgroundLocation</app:permission>
+		<app:use>true</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">BackgroundAudioPlayback</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>BackgroundAudioPlayback</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">FileExchangeWithPersonalComputer</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>FileExchangeWithPersonalComputer</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">PermissionGroupCallLog</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>PermissionGroupCallLog</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">CallPhone</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>CallPhone</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">CallLog</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>CallLog</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">HandlePhoneCalls</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>HandlePhoneCalls</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">SendSMS</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>SendSMS</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">ReceiveSMS</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>ReceiveSMS</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">SMSLog</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>SMSLog</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Camera</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>Camera</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Microphone</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>Microphone</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">MusicLibrary</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>MusicLibrary</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">PicturesAndVideoLibraries</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>PicturesAndVideoLibraries</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">AudioAndVibrationPlayback</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>AudioAndVibrationPlayback</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">InstallPackages</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>InstallPackages</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">AllowOSBackup</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>AllowOSBackup</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Biometrics</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
+		<app:permission>Biometrics</app:permission>
+		<app:use>true</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">BluetoothPrinters</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>BluetoothPrinters</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
-		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">WiFiPrinters</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<app:permission>WiFiPrinters</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
 	</requiredPermission>
-	<requiredFunctionality xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xsi:type="app:UsedFunctionality">
+	<requiredPermission>
+		<app:permission>AllFilesAccess</app:permission>
+		<app:use>false</app:use>
+		<app:description/>
+	</requiredPermission>
+	<requiredFunctionality xsi:type="app:UsedFunctionality">
 		<app:functionality>
 			<app:functionality>Biometrics</app:functionality>
 			<app:use>true</app:use>
@@ -239,13 +272,21 @@
 			<app:functionality>BarcodeScanning</app:functionality>
 			<app:use>false</app:use>
 		</app:functionality>
+		<app:functionality>
+			<app:functionality>BackgroundAudioRecording</app:functionality>
+			<app:use>false</app:use>
+		</app:functionality>
+		<app:functionality>
+			<app:functionality>AllFilesAccess</app:functionality>
+			<app:use>false</app:use>
+		</app:functionality>
 	</requiredFunctionality>
 	<mdtemplate name="ShareComponent" id="740f01aa-72da-4244-ae99-75d48abfd13b">
 		<synonym>
-			<item xmlns="http://v8.1c.ru/8.1/data/core">
-				<lang>ru</lang>
-				<content>Share component</content>
-			</item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Share component</v8:content>
+			</v8:item>
 		</synonym>
 		<addInTemplate uniqueName="com_1c_ShareComponent" digest="151f653c88c26a475f3c215e08ddb5be"/>
 		<templateType>AddIn</templateType>
